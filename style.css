@@ -1,0 +1,110 @@
+html{
+	background-color: #111;
+	margin-top: 40px;
+}
+div{
+	display: block;
+}
+* {
+    font-family: "Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+}
+a{
+	outline: 0;
+}
+
+#bandetop{
+
+	height: 40px;
+	width: 100%;
+	background-color: #343434;
+	text-align: right;
+	left: 0;
+	top: 0;
+	right: 0;
+	position: absolute;
+	white-space: nowrap;
+}
+
+#bandetop a{
+	margin-right: 20px;
+    color: #EEE;
+    display: inline;
+    font-size: 13px;
+    line-height: 42px;
+    padding: 0 14px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+}
+
+#conteneur{
+	position: relative;
+    z-index: 1;
+	box-shadow: 0pt 0pt 5px #000;
+    background: #242424;
+	width: auto;
+	height: 700px;
+    margin: 0 auto;
+	margin-left: 55px;
+	margin-right: 55px;
+	padding: 0;
+	
+}
+#menu_horizontal li a{
+	border-right: 1px solid rgba(255, 255, 255, 0.05);
+    color: #EEE;
+    display: inline;
+    font-size: 13px;
+    line-height: 30px;
+    padding: 0 20px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+}
+#menu_horizontal li{ 
+	display : inline;
+	padding : 0 0.5em;
+}
+#menu_horizontal ul {
+	list-style: none;
+}
+#menu_horizontal{
+	z-index: 5;
+    overflow: visible;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: #373737;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0, #393939), color-stop(0.5, #373737), color-stop(0.51, #2E2E2E), color-stop(1.0, #2B2B2B));
+	border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 0 3px #060606;
+    margin-top: 30px;
+}
+
+#contenu{
+	margin: 2px;
+	padding: 10px;
+	font-size: 14px;
+	color: #AAA;
+	position: relative;
+	background-color: #333333;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0, #333333), color-stop(1.0, #232323));
+	box-shadow: 0 0 5px #000000;
+    border-radius: 6px 6px 6px 6px;
+	float: left;
+	margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 18px;
+	margin-top: 105px;
+    width: 860px;
+	height: 500px;
+}
+
+label
+{
+	color: white;
+	display: block;
+	width: 170px;
+	float: left;
+}
+

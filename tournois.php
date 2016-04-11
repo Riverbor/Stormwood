@@ -1,0 +1,1 @@
+<h3 align="center">Aucun tournoi n'a encore été prévu. Merci de réessayer ultérieurement</h3>
